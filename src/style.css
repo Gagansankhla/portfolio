@@ -741,3 +741,13 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.scrollable-document-container {
+  height: 400px; /* Set the desired height for the container */
+  overflow-y: auto; /* Use "scroll" if you always want to show the scrollbar, "auto" shows it only when necessary */
+}
+
+.page-container {
+  page-break-inside: avoid; /* Prevent page breaks within pages */
+  margin: 0 auto;
+}
