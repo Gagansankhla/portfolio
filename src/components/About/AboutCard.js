@@ -7,9 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Gagan Sankhla </span>
-            hailing from <span className="purple"> Toronto, ON.</span>
+          <p style={{ textAlign: "justify" }}
             <br />I recently completed my B.Tech in Computer Science and Engineering from Ahmedabad University. 
             <br />
             <br />
