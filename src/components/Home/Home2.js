@@ -15,30 +15,32 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-            <span className="purple"> Hey there! </span>
-            </h1>
+            <h1 style={{ fontSize: "2.6em" }}></h1>
             <p className="home-about-body">
-            A passionate web developer who fell in love with programming and web technologies. 
+              A passionate web developer who fell in love with programming and
+              web technologies.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, React, Flutter and C#. </b>
+                <b className="purple">
+                  {" "}
+                  Javascript, React/React Native, Flutter.{" "}
+                </b>
               </i>
               <br />
               <br />
               I'm all about building innovative&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                But wait, I've got another side too—I'm an avid {" "}
-                <b className="purple">
-                gamer 
-                </b>
+                <b className="purple">Web Technologies and Products </b> and But
+                wait, I've got another side too—I'm an avid{" "}
+                <b className="purple">gamer</b>
                 🎮!
               </i>
               <br />
               <br />
-              Whether I'm diving into immersive worlds or crafting videos to share my gaming experiences, it's a journey I absolutely adore! Let's game on and create together! 🚀😄
+              Whether I'm diving into immersive worlds or crafting videos to
+              share my gaming experiences, it's a journey I absolutely adore!
+              Let's game on and create together! 🚀😄
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -76,8 +78,8 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                href="https://www.linkedin.com/in/gagan-sankhla-b40715195"
-                target="_blank"
+                  href="https://www.linkedin.com/in/gagan-sankhla-b40715195"
+                  target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
